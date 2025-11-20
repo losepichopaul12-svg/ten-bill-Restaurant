@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4ebf109c5e.js" crossorigin="anonymous"></script>
+    <title>Ten Bill Restaurant</title>
+</head>
+<body>
+       <nav>
+  <img class="logo" src="tenlogo.png" alt="Ten Bill Restaurant logo"> 
+  
+  <!-- Hamburger icon -->
+  
+
+  <!-- Navigation links -->
+  <ul id="nav-links">
+    <li><a href="#home">HOME</a></li> 
+    <li><a href="#about">ABOUT US</a></li> 
+    <li><a href="#menu">SERVICES</a></li> 
+    <li><a href="#contact">CONTACTS</a></li> 
+  </ul>
+</nav>
+    
+        <!--home section-->
+        <header  id="home"  class="heading"> 
+            <h1 style="text-align: center;"; margin-top:10px;>welcome to Ten Bill Restaurant  </h1> 
+            <p>Enjoy delicious meals crafted with love.</p> 
+            <a href="order.html"><button>ORDER WITH US</button></a>
+        </header> 
+    
+        <!---About us section-->
+        <section class="about" id="about"> 
+            <div class="div1"> 
+                    <h2 style="text-align: center;">About Us</h2> 
+            <p>Our restaurant is known for its amazing food and warm atmosphere<br> Come dine with us and enjoy!</p> 
+            </div> 
+            <div class="div2"> 
+                <img class="client" src="client.jpg" alt=""> 
+            </div> 
+        </section> 
+
+        <!---menu section contains gallery and prices-->
+        <section id="menu"> 
+            <div> 
+            <h2 style="text-align: center;">SERVICES </h2> 
+            </div> 
+            <div class="content"> 
+            <div class="menu-item"> 
+                <h3>NYAMA CHOMA</h3> 
+                <img class="meat"src="meat.jpg" alt=""> 
+                <p>Price: KES 8,000</p> 
+        </div> 
+            <div class="menu-item"> 
+                <h3>GRILLED CHICKEN </h3> 
+                <img class="chicken" src="chicken.jpg" alt=""> 
+                <p> Price: KES 5,000</p> 
+            </div> 
+            <div class ="menu-item"> 
+                <h3>PIZZA</h3> 
+                <img class="pizza" src="pizza.jpg" alt=""> 
+                <p> Price: KES 10,000</p> 
+            </div> 
+            </div> 
+        </section> 
+    
+        <!---location and contact for section-->
+        <section id="contact" class="location"> 
+            <div class="map">
+                <h1>Our Location</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25212.61845860668!2d36.02838644999999!3d1.9540821999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1784ac5b19c91f0f%3A0x8cecfbf32f788ca3!2sLokori!5e1!3m2!1sen!2ske!4v1759300222882!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!--contact form-->
+            <div class="form">
+                 <form action="submit-contact-form" method="post"> 
+                <h2 class="bosi">Contact Us</h2> 
+                <label for="name">Name:</label> 
+                <input type="text" id="name" name="name" required> 
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email" required> 
+                <label for="message">Message:</label> 
+                <textarea id="message" name="message" rows="4"  cols="8"></textarea> 
+                <button type="submit">Submit</button> 
+            </form> 
+            </div>
+            
+           
+        </section> 
+    <!--footer section-->
+        <footer> 
+            <p>&copy; 2025 Ten Bills Restaurant  . All rights reserved.</p>        
+             <p>Follow us on: <br>
+                <a href="www.facebook"><i class="fa-brands fa-facebook"></i></a> 
+                <a href="www.instagram"><i class="fa-brands fa-instagram"></i></a> 
+                <a href="www.twitter"><i class="fa-brands fa-twitter"></i></a> 
+                <a href="www.tiktok"><i class="fa-brands fa-tiktok"></i></a> 
+                
+            </p> 
+        </footer> 
+
+        
+</body>
+</html>
